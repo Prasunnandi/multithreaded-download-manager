@@ -1,0 +1,15 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: multithreaded-download-manager
+  threads:
+    virtual:
+      enabled: true
+
+downloader:
+  max-concurrent-tasks: 5
+  max-threads-per-task: 32
+  buffer-size-kb: 64
+  verify-checksum: true
