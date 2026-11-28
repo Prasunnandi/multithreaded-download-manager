@@ -1,0 +1,734 @@
+{
+  "benchmarkSuite": "Multi-Threaded HTTP/2 Byte-Range Chunk Download Benchmarks",
+  "totalBenchmarkFiles": 6,
+  "maxConcurrentThreads": 24,
+  "aggregateThroughputMbps": 876.5,
+  "benchmarks": [
+    {
+      "fileId": "DL-101",
+      "fileName": "ubuntu-24.04-desktop-amd64.iso",
+      "fileSizeBytes": 6207569920,
+      "fileSizeMb": 5920.0,
+      "sourceUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso",
+      "allocatedThreads": 16,
+      "averageThroughputMbps": 184.5,
+      "connectionLatencyMs": 14,
+      "completionPercentage": 100.0,
+      "status": "COMPLETED",
+      "acceptRangesSupported": true,
+      "sha256Checksum": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+      "chunkBreakdown": [
+        {
+          "chunkIndex": 0,
+          "byteRange": "bytes=0-387973119",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-1",
+          "downloadSpeedMbps": 166.1,
+          "latencyMs": 14,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 1,
+          "byteRange": "bytes=387973120-775946239",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-2",
+          "downloadSpeedMbps": 203.0,
+          "latencyMs": 15,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 2,
+          "byteRange": "bytes=775946240-1163919359",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-3",
+          "downloadSpeedMbps": 239.8,
+          "latencyMs": 16,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 3,
+          "byteRange": "bytes=1163919360-1551892479",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-4",
+          "downloadSpeedMbps": 166.1,
+          "latencyMs": 17,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 4,
+          "byteRange": "bytes=1551892480-1939865599",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-5",
+          "downloadSpeedMbps": 203.0,
+          "latencyMs": 18,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 5,
+          "byteRange": "bytes=1939865600-2327838719",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-6",
+          "downloadSpeedMbps": 239.8,
+          "latencyMs": 14,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 6,
+          "byteRange": "bytes=2327838720-2715811839",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-7",
+          "downloadSpeedMbps": 166.1,
+          "latencyMs": 15,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 7,
+          "byteRange": "bytes=2715811840-3103784959",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-8",
+          "downloadSpeedMbps": 203.0,
+          "latencyMs": 16,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 8,
+          "byteRange": "bytes=3103784960-3491758079",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-9",
+          "downloadSpeedMbps": 239.8,
+          "latencyMs": 17,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 9,
+          "byteRange": "bytes=3491758080-3879731199",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-10",
+          "downloadSpeedMbps": 166.1,
+          "latencyMs": 18,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 10,
+          "byteRange": "bytes=3879731200-4267704319",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-11",
+          "downloadSpeedMbps": 203.0,
+          "latencyMs": 14,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 11,
+          "byteRange": "bytes=4267704320-4655677439",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-12",
+          "downloadSpeedMbps": 239.8,
+          "latencyMs": 15,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 12,
+          "byteRange": "bytes=4655677440-5043650559",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-13",
+          "downloadSpeedMbps": 166.1,
+          "latencyMs": 16,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 13,
+          "byteRange": "bytes=5043650560-5431623679",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-14",
+          "downloadSpeedMbps": 203.0,
+          "latencyMs": 17,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 14,
+          "byteRange": "bytes=5431623680-5819596799",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-15",
+          "downloadSpeedMbps": 239.8,
+          "latencyMs": 18,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 15,
+          "byteRange": "bytes=5819596800-6207569919",
+          "chunkSizeBytes": 387973120,
+          "assignedWorkerThread": "worker-thread-16",
+          "downloadSpeedMbps": 166.1,
+          "latencyMs": 14,
+          "status": "VERIFIED_CRC32"
+        }
+      ]
+    },
+    {
+      "fileId": "DL-102",
+      "fileName": "llama-3-8b-instruct.Q4_K_M.gguf",
+      "fileSizeBytes": 5159518208,
+      "fileSizeMb": 4920.5,
+      "sourceUrl": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/llama-3-8b-instruct.Q4_K_M.gguf",
+      "allocatedThreads": 12,
+      "averageThroughputMbps": 142.8,
+      "connectionLatencyMs": 18,
+      "completionPercentage": 72.4,
+      "status": "DOWNLOADING",
+      "acceptRangesSupported": true,
+      "sha256Checksum": "bf5258f3be7d5bb2f01f4ab98064bf63d04d16ff1a31d0d970344d9354784407",
+      "chunkBreakdown": [
+        {
+          "chunkIndex": 0,
+          "byteRange": "bytes=0-429916159",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-1",
+          "downloadSpeedMbps": 128.5,
+          "latencyMs": 18,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 1,
+          "byteRange": "bytes=429916160-859832319",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-2",
+          "downloadSpeedMbps": 157.1,
+          "latencyMs": 19,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 2,
+          "byteRange": "bytes=859832320-1289748479",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-3",
+          "downloadSpeedMbps": 185.6,
+          "latencyMs": 20,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 3,
+          "byteRange": "bytes=1289748480-1719664639",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-4",
+          "downloadSpeedMbps": 128.5,
+          "latencyMs": 21,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 4,
+          "byteRange": "bytes=1719664640-2149580799",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-5",
+          "downloadSpeedMbps": 157.1,
+          "latencyMs": 22,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 5,
+          "byteRange": "bytes=2149580800-2579496959",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-6",
+          "downloadSpeedMbps": 185.6,
+          "latencyMs": 18,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 6,
+          "byteRange": "bytes=2579496960-3009413119",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-7",
+          "downloadSpeedMbps": 128.5,
+          "latencyMs": 19,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 7,
+          "byteRange": "bytes=3009413120-3439329279",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-8",
+          "downloadSpeedMbps": 157.1,
+          "latencyMs": 20,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 8,
+          "byteRange": "bytes=3439329280-3869245439",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-9",
+          "downloadSpeedMbps": 185.6,
+          "latencyMs": 21,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 9,
+          "byteRange": "bytes=3869245440-4299161599",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-10",
+          "downloadSpeedMbps": 128.5,
+          "latencyMs": 22,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 10,
+          "byteRange": "bytes=4299161600-4729077759",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-11",
+          "downloadSpeedMbps": 157.1,
+          "latencyMs": 18,
+          "status": "PENDING"
+        },
+        {
+          "chunkIndex": 11,
+          "byteRange": "bytes=4729077760-5158993919",
+          "chunkSizeBytes": 429916160,
+          "assignedWorkerThread": "worker-thread-12",
+          "downloadSpeedMbps": 185.6,
+          "latencyMs": 19,
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "fileId": "DL-103",
+      "fileName": "kaggle_financial_transactions_10m.parquet",
+      "fileSizeBytes": 1939865600,
+      "fileSizeMb": 1850.0,
+      "sourceUrl": "https://storage.googleapis.com/kaggle-benchmarks/financial_transactions_10m.parquet",
+      "allocatedThreads": 8,
+      "averageThroughputMbps": 98.2,
+      "connectionLatencyMs": 22,
+      "completionPercentage": 45.0,
+      "status": "PAUSED",
+      "acceptRangesSupported": true,
+      "sha256Checksum": "7d793037a0760186574b0282f2f435e7b1e7a667da4725c01ec53c574b635f9b",
+      "chunkBreakdown": [
+        {
+          "chunkIndex": 0,
+          "byteRange": "bytes=0-242483199",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-1",
+          "downloadSpeedMbps": 88.4,
+          "latencyMs": 22,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 1,
+          "byteRange": "bytes=242483200-484966399",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-2",
+          "downloadSpeedMbps": 108.0,
+          "latencyMs": 23,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 2,
+          "byteRange": "bytes=484966400-727449599",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-3",
+          "downloadSpeedMbps": 127.7,
+          "latencyMs": 24,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 3,
+          "byteRange": "bytes=727449600-969932799",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-4",
+          "downloadSpeedMbps": 88.4,
+          "latencyMs": 25,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 4,
+          "byteRange": "bytes=969932800-1212415999",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-5",
+          "downloadSpeedMbps": 108.0,
+          "latencyMs": 26,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 5,
+          "byteRange": "bytes=1212416000-1454899199",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-6",
+          "downloadSpeedMbps": 127.7,
+          "latencyMs": 22,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 6,
+          "byteRange": "bytes=1454899200-1697382399",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-7",
+          "downloadSpeedMbps": 88.4,
+          "latencyMs": 23,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 7,
+          "byteRange": "bytes=1697382400-1939865599",
+          "chunkSizeBytes": 242483200,
+          "assignedWorkerThread": "worker-thread-8",
+          "downloadSpeedMbps": 108.0,
+          "latencyMs": 24,
+          "status": "IN_TRANSIT"
+        }
+      ]
+    },
+    {
+      "fileId": "DL-104",
+      "fileName": "cuda_12.4.1_windows_installer.exe",
+      "fileSizeBytes": 3303014400,
+      "fileSizeMb": 3150.0,
+      "sourceUrl": "https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda_12.4.1_windows_installer.exe",
+      "allocatedThreads": 10,
+      "averageThroughputMbps": 115.0,
+      "connectionLatencyMs": 16,
+      "completionPercentage": 88.5,
+      "status": "DOWNLOADING",
+      "acceptRangesSupported": true,
+      "sha256Checksum": "2c6ee3d3fb490a618e99497e2f5b357ffba766c61f224b17adbd3571d2b8612f",
+      "chunkBreakdown": [
+        {
+          "chunkIndex": 0,
+          "byteRange": "bytes=0-330301439",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-1",
+          "downloadSpeedMbps": 103.5,
+          "latencyMs": 16,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 1,
+          "byteRange": "bytes=330301440-660602879",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-2",
+          "downloadSpeedMbps": 126.5,
+          "latencyMs": 17,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 2,
+          "byteRange": "bytes=660602880-990904319",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-3",
+          "downloadSpeedMbps": 149.5,
+          "latencyMs": 18,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 3,
+          "byteRange": "bytes=990904320-1321205759",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-4",
+          "downloadSpeedMbps": 103.5,
+          "latencyMs": 19,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 4,
+          "byteRange": "bytes=1321205760-1651507199",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-5",
+          "downloadSpeedMbps": 126.5,
+          "latencyMs": 20,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 5,
+          "byteRange": "bytes=1651507200-1981808639",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-6",
+          "downloadSpeedMbps": 149.5,
+          "latencyMs": 16,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 6,
+          "byteRange": "bytes=1981808640-2312110079",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-7",
+          "downloadSpeedMbps": 103.5,
+          "latencyMs": 17,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 7,
+          "byteRange": "bytes=2312110080-2642411519",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-8",
+          "downloadSpeedMbps": 126.5,
+          "latencyMs": 18,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 8,
+          "byteRange": "bytes=2642411520-2972712959",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-9",
+          "downloadSpeedMbps": 149.5,
+          "latencyMs": 19,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 9,
+          "byteRange": "bytes=2972712960-3303014399",
+          "chunkSizeBytes": 330301440,
+          "assignedWorkerThread": "worker-thread-10",
+          "downloadSpeedMbps": 103.5,
+          "latencyMs": 20,
+          "status": "IN_TRANSIT"
+        }
+      ]
+    },
+    {
+      "fileId": "DL-105",
+      "fileName": "openwebtext_pretokenized_corpus.tar.zst",
+      "fileSizeBytes": 8808038400,
+      "fileSizeMb": 8400.0,
+      "sourceUrl": "https://cdn.huggingface.co/datasets/openwebtext/openwebtext.tar.zst",
+      "allocatedThreads": 24,
+      "averageThroughputMbps": 210.4,
+      "connectionLatencyMs": 12,
+      "completionPercentage": 0.0,
+      "status": "QUEUED",
+      "acceptRangesSupported": true,
+      "sha256Checksum": "f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2",
+      "chunkBreakdown": [
+        {
+          "chunkIndex": 0,
+          "byteRange": "bytes=0-367001599",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-1",
+          "downloadSpeedMbps": 189.4,
+          "latencyMs": 12,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 1,
+          "byteRange": "bytes=367001600-734003199",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-2",
+          "downloadSpeedMbps": 231.4,
+          "latencyMs": 13,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 2,
+          "byteRange": "bytes=734003200-1101004799",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-3",
+          "downloadSpeedMbps": 273.5,
+          "latencyMs": 14,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 3,
+          "byteRange": "bytes=1101004800-1468006399",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-4",
+          "downloadSpeedMbps": 189.4,
+          "latencyMs": 15,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 4,
+          "byteRange": "bytes=1468006400-1835007999",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-5",
+          "downloadSpeedMbps": 231.4,
+          "latencyMs": 16,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 5,
+          "byteRange": "bytes=1835008000-2202009599",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-6",
+          "downloadSpeedMbps": 273.5,
+          "latencyMs": 12,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 6,
+          "byteRange": "bytes=2202009600-2569011199",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-7",
+          "downloadSpeedMbps": 189.4,
+          "latencyMs": 13,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 7,
+          "byteRange": "bytes=2569011200-2936012799",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-8",
+          "downloadSpeedMbps": 231.4,
+          "latencyMs": 14,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 8,
+          "byteRange": "bytes=2936012800-3303014399",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-9",
+          "downloadSpeedMbps": 273.5,
+          "latencyMs": 15,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 9,
+          "byteRange": "bytes=3303014400-3670015999",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-10",
+          "downloadSpeedMbps": 189.4,
+          "latencyMs": 16,
+          "status": "IN_TRANSIT"
+        },
+        {
+          "chunkIndex": 10,
+          "byteRange": "bytes=3670016000-4037017599",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-11",
+          "downloadSpeedMbps": 231.4,
+          "latencyMs": 12,
+          "status": "PENDING"
+        },
+        {
+          "chunkIndex": 11,
+          "byteRange": "bytes=4037017600-4404019199",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-12",
+          "downloadSpeedMbps": 273.5,
+          "latencyMs": 13,
+          "status": "PENDING"
+        },
+        {
+          "chunkIndex": 12,
+          "byteRange": "bytes=4404019200-4771020799",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-13",
+          "downloadSpeedMbps": 189.4,
+          "latencyMs": 14,
+          "status": "PENDING"
+        },
+        {
+          "chunkIndex": 13,
+          "byteRange": "bytes=4771020800-5138022399",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-14",
+          "downloadSpeedMbps": 231.4,
+          "latencyMs": 15,
+          "status": "PENDING"
+        },
+        {
+          "chunkIndex": 14,
+          "byteRange": "bytes=5138022400-5505023999",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-15",
+          "downloadSpeedMbps": 273.5,
+          "latencyMs": 16,
+          "status": "PENDING"
+        },
+        {
+          "chunkIndex": 15,
+          "byteRange": "bytes=5505024000-5872025599",
+          "chunkSizeBytes": 367001600,
+          "assignedWorkerThread": "worker-thread-16",
+          "downloadSpeedMbps": 189.4,
+          "latencyMs": 12,
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "fileId": "DL-106",
+      "fileName": "postgres_backup_production_snapshot.dump",
+      "fileSizeBytes": 2516582400,
+      "fileSizeMb": 2400.0,
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/enterprise-vault/postgres_backup.dump",
+      "allocatedThreads": 8,
+      "averageThroughputMbps": 125.6,
+      "connectionLatencyMs": 15,
+      "completionPercentage": 100.0,
+      "status": "COMPLETED",
+      "acceptRangesSupported": true,
+      "sha256Checksum": "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae",
+      "chunkBreakdown": [
+        {
+          "chunkIndex": 0,
+          "byteRange": "bytes=0-314572799",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-1",
+          "downloadSpeedMbps": 113.0,
+          "latencyMs": 15,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 1,
+          "byteRange": "bytes=314572800-629145599",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-2",
+          "downloadSpeedMbps": 138.2,
+          "latencyMs": 16,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 2,
+          "byteRange": "bytes=629145600-943718399",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-3",
+          "downloadSpeedMbps": 163.3,
+          "latencyMs": 17,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 3,
+          "byteRange": "bytes=943718400-1258291199",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-4",
+          "downloadSpeedMbps": 113.0,
+          "latencyMs": 18,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 4,
+          "byteRange": "bytes=1258291200-1572863999",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-5",
+          "downloadSpeedMbps": 138.2,
+          "latencyMs": 19,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 5,
+          "byteRange": "bytes=1572864000-1887436799",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-6",
+          "downloadSpeedMbps": 163.3,
+          "latencyMs": 15,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 6,
+          "byteRange": "bytes=1887436800-2202009599",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-7",
+          "downloadSpeedMbps": 113.0,
+          "latencyMs": 16,
+          "status": "VERIFIED_CRC32"
+        },
+        {
+          "chunkIndex": 7,
+          "byteRange": "bytes=2202009600-2516582399",
+          "chunkSizeBytes": 314572800,
+          "assignedWorkerThread": "worker-thread-8",
+          "downloadSpeedMbps": 138.2,
+          "latencyMs": 17,
+          "status": "VERIFIED_CRC32"
+        }
+      ]
+    }
+  ]
+}
